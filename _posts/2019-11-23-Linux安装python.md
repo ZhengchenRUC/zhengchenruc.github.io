@@ -55,7 +55,7 @@ source ~/.bashrc
 python3.7
 ```
 
-![]( https://github.com/didicz/didicz.github.io/blob/master/images/2019-11-23/1.png )
+![](../images/1.png)
 
 大功告成啦！
 
@@ -65,7 +65,7 @@ python3.7
 
 先去官网下载一个Anaconda的python3.7 https://www.anaconda.com/distribution/ 
 
-![]( https://github.com/didicz/didicz.github.io/blob/master/images/2019-11-23/2.png )
+![](../images/2.png)
 
 下载到服务器上解压
 
