@@ -6,7 +6,7 @@ date:   2019-11-23
 tags: python3 Linux
 description: 'Linux python3安装'
 color: 'rgb(154,133,255)'
-cover: '../images/2019-11-23/1.png'
+cover: '../images/1.png'
 ---
 
 
