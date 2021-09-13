@@ -6,7 +6,7 @@ tags: Spark Scala SBT
 subtitle: "Spark-Scala学习(一)"
 description: 'Spark Scala'
 color: 'rgb(154,133,255)'
-cover: '../images/10.jpg'
+cover: '../images/10.png'
 ---
 
 一、写一个简单的程序
