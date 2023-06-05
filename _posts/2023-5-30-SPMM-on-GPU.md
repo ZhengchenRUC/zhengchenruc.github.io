@@ -431,7 +431,7 @@ __global__ void spmm_nnz_balance_rowcache_kernel(const spmat *A, const float *B,
 const size_t nnzDim = (nnz + NE_PER_WARP - 1) / NE_PER_WARP;
 const size_t colDim = (col_num + 31) / 32;
 auto BLOCK = dim3((nnzDim*WARP_SIZE) / THREADS, colDim);
-spmm_nnz_balance_warp_kernel<<<BLOCKS, THREADS>>>(A, B, C);
+spmm_nnz_balance_rowcache_kernel<<<BLOCKS, THREADS>>>(A, B, C);
 ```
 
 #### Summary
@@ -448,7 +448,6 @@ spmm_nnz_balance_warp_kernel<<<BLOCKS, THREADS>>>(A, B, C);
     N > 32: row_cache
     32 > N > 4: sequential
     4 > N: parallel reduction
-    
 
 
 
